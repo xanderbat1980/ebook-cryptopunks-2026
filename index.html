@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CryptoPunks en 2026 — Ebook détaillé, créatif et technique</title>
+  <meta name="description" content="Version web de l'ebook CryptoPunks en 2026 — histoire, techniques, création, smart contracts, idées avancées et famille d'exemple." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand-block">
+        <div class="brand-mark" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <div>
+          <p class="eyebrow">Ebook interactif</p>
+          <h1>CryptoPunks en 2026</h1>
+          <p class="subtitle">Version détaillée, créative et technique</p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <button class="control-btn" id="themeToggle" type="button" aria-label="Basculer le thème">◐</button>
+        <button class="control-btn mobile-toc-btn" id="mobileTocToggle" type="button" aria-label="Afficher le sommaire">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="page-shell">
+    <aside class="toc-panel" id="tocPanel">
+      <div class="toc-sticky">
+        <p class="toc-label">Table des matières</p>
+        <nav>
+          <a href="#introduction">Introduction</a>
+          <a href="#pourquoi-cryptopunks-reste-une-reference">Pourquoi CryptoPunks reste une référence</a>
+          <a href="#origine-et-histoire-complete">Origine et histoire complète</a>
+          <a href="#architecture-historique-du-projet">Architecture historique du projet</a>
+          <a href="#traits-rarete-et-logique-visuelle">Traits, rareté et logique visuelle</a>
+          <a href="#comment-penser-un-cryptopunk-en-2026">Comment penser un CryptoPunk en 2026</a>
+          <a href="#tout-ce-quon-peut-mettre-dans-un-punk-moderne">Tout ce qu’on peut mettre dans un Punk moderne</a>
+          <a href="#fonctions-avancees-et-idees-cachees">Fonctions avancées et idées cachées</a>
+          <a href="#pipeline-de-creation-complet">Pipeline de création complet</a>
+          <a href="#systeme-de-couches-et-direction-artistique">Système de couches et direction artistique</a>
+          <a href="#generation-algorithmique-et-metadonnees">Génération algorithmique et métadonnées</a>
+          <a href="#codage-des-assets-et-scripts-de-generation">Codage des assets et scripts de génération</a>
+          <a href="#smart-contract-ethereum-pour-la-distribution">Smart contract Ethereum pour la distribution</a>
+          <a href="#deploiement-testnet-mainnet-et-securite">Déploiement, testnet, mainnet et sécurité</a>
+          <a href="#stockage-on-chain-ipfs-et-modeles-hybrides">Stockage on-chain, IPFS et modèles hybrides</a>
+          <a href="#ce-quun-projet-de-type-cryptopunk-peut-devenir-en-2026">Ce qu’un projet de type CryptoPunk peut devenir en 2026</a>
+          <a href="#risques-juridiques-techniques-et-strategiques">Risques juridiques, techniques et stratégiques</a>
+          <a href="#exemple-concret-final-concevoir-une-famille-complete">Exemple concret final : concevoir une famille complète</a>
+          <a href="#plan-dexecution-etape-par-etape">Plan d’exécution étape par étape</a>
+        </nav>
+      </div>
+    </aside>
+
+    <main id="contenu" class="content-panel">
+      <section class="hero-card">
+        <div>
+          <p class="hero-kicker">NFT · Ethereum · Pixel art · Design génératif</p>
+          <h2>Un ebook web lisible comme un manifeste de collection</h2>
+          <p class="hero-text">Cette version HTML reprend l’ebook <em>CryptoPunks en 2026 — Ebook détaillé, créatif et technique</em> dans un format lecture long, avec navigation ancrée, style éditorial, codes mis en valeur et expérience responsive.</p>
+        </div>
+        <div class="hero-meta">
+          <div class="meta-box"><span>Format</span><strong>Long read</strong></div>
+          <div class="meta-box"><span>Mode</span><strong>Web + responsive</strong></div>
+          <div class="meta-box"><span>Public</span><strong>Créateur / dev / collectionneur</strong></div>
+        </div>
+      </section>
+
+      <article class="ebook-article">
+        <section id="introduction">
+          <h2>Introduction</h2>
+          <p>Les CryptoPunks sont l’un des projets les plus importants de l’histoire des NFT, parce qu’ils ont montré très tôt qu’une image numérique pouvait devenir un objet rare, vérifiable et socialement significatif sur Ethereum.</p>
+          <p>En 2026, parler des CryptoPunks ne consiste plus seulement à regarder le passé. Cela revient aussi à imaginer ce qu’un avatar pixelisé, programmable et lié à une identité numérique peut encore devenir : œuvre, interface, badge, passe d’accès, conteneur de secrets ou point d’entrée vers un univers complet.</p>
+        </section>
+
+        <section id="pourquoi-cryptopunks-reste-une-reference">
+          <h2>Pourquoi CryptoPunks reste une référence</h2>
+          <p>CryptoPunks reste une référence parce que le projet a posé simultanément plusieurs briques fondatrices : rareté fixe, esthétique reconnaissable, collection générative, propriété vérifiable et marché natif.</p>
+          <p>Leur format compact les a aussi rendus parfaitement adaptés à la culture avatar. Un Punk reste identifiable à très petite taille, ce qui lui donne une force mémétique et symbolique rare dans l’histoire du visuel numérique.</p>
+        </section>
+
+        <section id="origine-et-histoire-complete">
+          <h2>Origine et histoire complète</h2>
+          <p>CryptoPunks a été créé comme une expérimentation sur la rareté native d’objets numériques et sur la possibilité de posséder un personnage internet comme on possède une œuvre ou un objet de collection.</p>
+          <p>Ce point historique est essentiel : le projet a précédé la normalisation ERC-721, ce qui signifie que sa logique technique n’est pas celle d’une collection NFT standard arrivée plus tard, mais celle d’un prototype fondateur devenu canonique.</p>
+        </section>
+
+        <section id="architecture-historique-du-projet">
+          <h2>Architecture historique du projet</h2>
+          <p>L’architecture historique de CryptoPunks était atypique : contrat spécifique, logique de marché native, relation forte entre contrat, image composite, attributs et authenticité.</p>
+          <p>En étudiant ce modèle, on comprend mieux la transition entre les premières expérimentations sur Ethereum et les pratiques NFT plus standardisées qui dominent aujourd’hui.</p>
+        </section>
+
+        <section id="traits-rarete-et-logique-visuelle">
+          <h2>Traits, rareté et logique visuelle</h2>
+          <p>La force d’un Punk ne vient pas seulement du nombre de traits. Elle vient aussi de leur lisibilité, de leur combinaison et de la qualité iconique du résultat final.</p>
+          <ul>
+            <li>Types de base : humain, ape, zombie, alien ou variantes dérivées.</li>
+            <li>Traits visibles : cheveux, lunettes, pipe, bijoux, chapeaux, cicatrices, masques.</li>
+            <li>Valeur culturelle : certains traits fonctionnent comme signatures plus que comme simples accessoires.</li>
+          </ul>
+        </section>
+
+        <section id="comment-penser-un-cryptopunk-en-2026">
+          <h2>Comment penser un CryptoPunk en 2026</h2>
+          <p>Un Punk moderne ne doit plus être pensé comme une simple image. Il peut être une couche visuelle, une couche metadata, une couche applicative et une couche communautaire superposées.</p>
+          <p>La bonne question n’est plus seulement “comment le dessiner ?”, mais aussi “que peut-il contenir, déclencher, cacher ou prouver ?”.</p>
+        </section>
+
+        <section id="tout-ce-quon-peut-mettre-dans-un-punk-moderne">
+          <h2>Tout ce qu’on peut mettre dans un Punk moderne</h2>
+          <div class="callout-grid">
+            <div class="callout-card">
+              <h3>Visible</h3>
+              <p>Silhouette, peau, fond, yeux, bouche, accessoires, bordure, aura, glitch, badge, patch, rune, couleur de clan.</p>
+            </div>
+            <div class="callout-card">
+              <h3>Données</h3>
+              <p>Famille, génération, rang, niveau, secret activé, compatibilité, état collector, accès privé.</p>
+            </div>
+            <div class="callout-card">
+              <h3>Caché</h3>
+              <p>QR latent, motif stéganographique, hash visuel, code binaire, signature d’édition, clé de lore.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="fonctions-avancees-et-idees-cachees">
+          <h2>Fonctions avancées et idées cachées</h2>
+          <p>Le QR code caché dans les pixels est une idée forte si on le pense comme une couche secondaire et non comme une surcharge du visuel principal. Il peut apparaître dans une version zoomée, un mode forensic, une édition collector ou un poster dérivé.</p>
+          <p>La meilleure approche consiste à préserver la lisibilité de l’œuvre principale tout en ajoutant une seconde lecture pour les détenteurs, les curieux ou les collectionneurs les plus investis.</p>
+        </section>
+
+        <section id="pipeline-de-creation-complet">
+          <h2>Pipeline de création complet</h2>
+          <ol>
+            <li>Définir la vision, le ton et la promesse du projet.</li>
+            <li>Écrire la bible artistique et les règles de familles.</li>
+            <li>Concevoir les calques et les compatibilités.</li>
+            <li>Fixer les probabilités de rareté.</li>
+            <li>Générer les assets et les metadata.</li>
+            <li>Déployer le contrat, tester, révéler, documenter.</li>
+          </ol>
+        </section>
+
+        <section id="systeme-de-couches-et-direction-artistique">
+          <h2>Système de couches et direction artistique</h2>
+          <p>La collection fonctionne mieux quand chaque calque a un rôle clair : type, tête, yeux, bouche, accessoires, éléments rares, couche secrète, état collector.</p>
+          <p>La clé reste la lisibilité. Même si dix niveaux de sens sont cachés dans l’image, le personnage doit fonctionner au premier regard comme une icône forte.</p>
+        </section>
+
+        <section id="generation-algorithmique-et-metadonnees">
+          <h2>Génération algorithmique et métadonnées</h2>
+          <p>La génération combine pondération, compatibilités, unicité et export. Les métadonnées relient ensuite le token, l’image, les attributs et les éventuelles fonctions cachées ou évolutives.</p>
+<pre><code class="language-json">{
+  "name": "NeoPunk #0",
+  "description": "Portrait NFT original à couche cachée.",
+  "image": "ipfs://QmImagesCID/0.png",
+  "attributes": [
+    { "trait_type": "Type", "value": "Human" },
+    { "trait_type": "Family", "value": "Ghostline-7" },
+    { "trait_type": "Hidden Layer", "value": "LatentQR" }
+  ]
+}</code></pre>
+        </section>
+
+        <section id="codage-des-assets-et-scripts-de-generation">
+          <h2>Codage des assets et scripts de génération</h2>
+<pre><code class="language-python">import random
+
+traits = {
+    "eyes": ["Normal", "Scanner Lens", "3D Glasses"],
+    "head": ["Hood", "Braids", "Wild Hair"],
+    "hidden": ["None", "LatentQR", "ChecksumMark"]
+}
+
+punk = {
+    "eyes": random.choice(traits["eyes"]),
+    "head": random.choice(traits["head"]),
+    "hidden": random.choice(traits["hidden"])
+}
+
+print(punk)</code></pre>
+          <p>En production, ce pipeline doit être enrichi avec des règles d’incompatibilité, des contrôles de doublons, un rendu image et des statistiques de rareté finalisées.</p>
+        </section>
+
+        <section id="smart-contract-ethereum-pour-la-distribution">
+          <h2>Smart contract Ethereum pour la distribution</h2>
+<pre><code class="language-solidity">pragma solidity ^0.8.24;
+
+contract NeoPunks2026 {
+    uint256 public constant MAX_SUPPLY = 10000;
+    bool public saleActive;
+    bool public revealed;
+}</code></pre>
+          <p>Une collection de style Punk en 2026 repose généralement sur ERC-721, une logique de prereveal, une base URI révélée, un mint public et parfois des fonctions spéciales pour les détenteurs.</p>
+        </section>
+
+        <section id="deploiement-testnet-mainnet-et-securite">
+          <h2>Déploiement, testnet, mainnet et sécurité</h2>
+          <p>Le bon workflow consiste à déployer sur testnet, valider le mint, les URI, le reveal, les permissions et les coûts en gas, puis seulement ensuite passer sur mainnet.</p>
+          <p>Un projet sérieux documente aussi les risques : erreurs d’URI, admin trop puissant, secrets mal gérés, metadata cassées ou promesses non tenues.</p>
+        </section>
+
+        <section id="stockage-on-chain-ipfs-et-modeles-hybrides">
+          <h2>Stockage on-chain, IPFS et modèles hybrides</h2>
+          <p>Trois approches dominent : on-chain intégral, IPFS/Arweave ou modèle hybride. Le choix dépend du budget, du niveau de permanence visé et de la promesse artistique.</p>
+          <p>Un projet inspiré des CryptoPunks peut chercher à combiner prestige technique et coût raisonnable, par exemple avec metadata robustes sur IPFS et version collector plus avancée ailleurs.</p>
+        </section>
+
+        <section id="ce-quun-projet-de-type-cryptopunk-peut-devenir-en-2026">
+          <h2>Ce qu’un projet de type CryptoPunk peut devenir en 2026</h2>
+          <p>En 2026, un projet de type Punk peut devenir une collection, un système de familles, un univers narratif, un passe d’accès, une archive on-chain, un jeu d’indices ou une expérience communautaire évolutive.</p>
+          <p>La meilleure version de ce modèle reste pourtant simple dans sa façade : une icône forte d’abord, une profondeur technique ensuite.</p>
+        </section>
+
+        <section id="risques-juridiques-techniques-et-strategiques">
+          <h2>Risques juridiques, techniques et stratégiques</h2>
+          <p>S’inspirer de CryptoPunks ne doit jamais signifier copier trop fidèlement son identité visuelle, sa marque ou ses assets. Il faut reprendre la logique conceptuelle, pas l’œuvre.</p>
+          <p>Sur le plan stratégique, le principal danger est de produire un clone chargé de gadgets sans proposition artistique nette.</p>
+        </section>
+
+        <section id="exemple-concret-final-concevoir-une-famille-complete">
+          <h2>Exemple concret final : concevoir une famille complète</h2>
+          <p>La famille fictive <strong>Ghostline-7</strong> est pensée comme une lignée urbaine post-réseau. Tous ses membres partagent un micro-marqueur héréditaire sous l’œil droit et une logique de lecture cachée en version collector.</p>
+          <div class="family-table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Membre</th>
+                  <th>Type</th>
+                  <th>Traits</th>
+                  <th>Secret</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Patriarche</td>
+                  <td>Human</td>
+                  <td>Hood, scanner lens, fond graphite</td>
+                  <td>ChecksumMark</td>
+                </tr>
+                <tr>
+                  <td>Matriarche</td>
+                  <td>Human</td>
+                  <td>Braids argentées, big shades, fond violet sombre</td>
+                  <td>BinaryDust</td>
+                </tr>
+                <tr>
+                  <td>Héritier A</td>
+                  <td>Augmented</td>
+                  <td>Respirator, monovisor, patch collector</td>
+                  <td>LatentQR</td>
+                </tr>
+                <tr>
+                  <td>Ancêtre rare</td>
+                  <td>Zombie</td>
+                  <td>Hood, regard vide, pixel inversé</td>
+                  <td>VaultKey</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="plan-dexecution-etape-par-etape">
+          <h2>Plan d’exécution étape par étape</h2>
+          <ol>
+            <li>Définir une identité originale et distincte.</li>
+            <li>Écrire les familles, la rareté et les secrets.</li>
+            <li>Concevoir les calques et les scripts de génération.</li>
+            <li>Créer les metadata et le contrat ERC-721.</li>
+            <li>Tester sur testnet, puis déployer sur mainnet.</li>
+            <li>Révéler, documenter et faire vivre le projet dans le temps.</li>
+          </ol>
+          <p>Un grand projet de type Punk en 2026 n’est pas qu’une collection d’images : c’est un système cohérent entre art, code, rareté, mémoire et expérience utilisateur.</p>
+        </section>
+      </article>
+    </main>
+  </div>
+
+  <button id="backToTop" class="back-to-top" type="button" aria-label="Remonter en haut">↑</button>
+
+  <script src="./script.js"></script>
+</body>
+</html>
